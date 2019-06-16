@@ -1,5 +1,5 @@
 # Feed Reader Testing: Udacity Project 4
-Test-driven development is a standard of development that has grown in popularity in recent years. This practice requires developers to write their own test suites before writing their code, thereby causing tests to fail since there is no code to run each test against. The purpose of this project is to give aspiring front-end developers some experience in test-driven development using the Jasmine tool.
+Test-driven development is a standard of development that has grown in popularity in recent years. This practice requires developers to write their own test suites before writing their code, thereby causing tests to fail since there is no code to run each test against. As the developer writes the code for each test, the test will eventually pass. The purpose of this project is to give aspiring front-end developers some experience in test-driven development using the Jasmine tool.
 
 In this project, the student is given starter code for a web-based application that reads RSS feeds. The files include a partially written test suite that the student must complete.
 
