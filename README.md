@@ -1,7 +1,7 @@
-# Classic Arcade Game Based on Frogger: Udacity Project 3
-According to Wikipedia, Frogger is an arcade game created by Konami in 1981. The objective of the game is to guide your frogs to safety so they do not become roadkill.
+# Feed Reader Testing: Udacity Project 4
+Test-driven development is a standard of development that has grown in popularity in recent years. This practice requires developers to write their own test suites before writing their code, thereby causing tests to fail since there is no code to run each test against. The purpose of this project is to give aspiring front-end developers some experience in test-driven development using the Jasmine tool.
 
-This project is based on the frogger concept, but the "frogs" are replaced by a single human player and the "cars" are giant beetles. Although much more simple than the original game, this project is effective in teaching the basics of object-oriented coding.
+In this project, the student is given starter code for a web-based application that reads RSS feeds. The files include a partially written test suite that the student must complete.
 
 ## First, Copy the Files from GitHub
 
@@ -16,18 +16,5 @@ This project is based on the frogger concept, but the "frogs" are replaced by a 
 2. Click the *Fork* link near the top right of my GitHub repository.
 3. The files will be forked to your GitHub repository.
 
-## How to Play
-The animation begins when the game loads. The canvas, player, and enemy are rendered. Six enemy bugs move at various speeds. The arrow keys control the movement of the player up, down, left, and right. The game is won when the player reaches the river. A collision with the enemy causes the player to be returned to the bottom center of the canvas.
-
-<img src="images/frogger.jpg>
-
-When the player reaches the water, a modal is displayed and the player has the option to play again.
-
-## Constraints and Known Bugs
-This game uses the HTML5 dialog element to open a modal when the user has won the game. For best results, please use one of the following browsers, as other browsers may not support the dialog element yet.
-* Chrome version 37 or later
-* Opera version 24 or later
-
-## Languages and Resources Used
-* HTML, CSS, and JavaScript
-* Starter code from Udacity
+## How to Run the Application
+Simply open index.html in your browser. Jasmine will display test results at the bottom of your screen.
